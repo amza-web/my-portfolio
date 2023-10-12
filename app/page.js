@@ -23,6 +23,7 @@ import designo from '@/app/assets/img/car-rental.webp'
 export default function Home() {
   const projList=[
     {
+      id: 1000,
       name: "Designo",
       image: designo,
       desc: `A car rental website is an online platform that allows users to rent 
@@ -32,6 +33,7 @@ export default function Home() {
 
     },
     {
+      id: 1001,
       name: "pofivij",
       image: designo,
       desc: `kjkjsbfjsbfkjbfs lj jsljlsjb form that allows users to rent 
@@ -117,7 +119,7 @@ export default function Home() {
         </div>
         <div className='flex flex-col gap-14 lg:proj-list'>
           {projList.map((item, index)=>{
-            return (<Project project={item} key={index} />)
+            return (<Project project={item} key={item.id} />)
           })}
         </div>
       </section>
