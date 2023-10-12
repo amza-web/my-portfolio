@@ -153,8 +153,8 @@ export default function Home() {
           <p className='text-white text-[17px]'>Copyright © {date.getFullYear()}. All rights reserved</p>
           <div className='flex justify-center mt-3'>
             <div>
-              <Image className='w-7 inline-block mr-5' src={linkedinB}/>
-              <Image className='w-7 inline-block' src={githubB}/>
+              <Image className='w-7 inline-block mr-5' src={linkedinB} alt='linkedin'/>
+              <Image className='w-7 inline-block' src={githubB} alt='Github'/>
             </div>
           </div>
         </div>
