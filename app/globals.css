@@ -37,11 +37,12 @@
   h4{
     @apply font-bold uppercase;
   }
+  
   .skills img{
     @apply max-w-[34px] ;
   }
   .skills ul{
-    @apply flex flex-wrap justify-center gap-6;
+    @apply flex lg:inline-flex flex-wrap justify-center gap-6;
   }
   .skills li {
     @apply bg-white rounded-full shadow-pr p-4 inline-flex;
@@ -50,7 +51,7 @@
     @apply py-20 bg-white;
   }
   .portfolio{
-    @apply mx-5 ;
+    @apply mx-5 md:mx-10;
   }
   .portfolio ul{
     @apply flex flex-wrap justify-center gap-4;
@@ -61,6 +62,9 @@
   .project{
     @apply p-5 bg-white rounded-2xl shadow-pr text-center flex flex-col gap-7;
   }
+  .container-d{
+    @apply lg:max-w-5xl lg:px-10 lg:mx-auto;
+  }
   .img-cont{
     @apply relative h-96 overflow-hidden rounded-2xl ;
   }
@@ -70,6 +74,15 @@
     @apply relative h-72 w-72 overflow-hidden border-solid border-[3px] border-dblue ;
     animation: blob-animation 8s infinite alternate ease-in-out;
 
+  }
+  .proj-list > div:nth-child(even) .img-cont{
+    order: 1;
+  }
+  .inline-on li{
+    @apply inline-block;
+  }
+  .tech-txt{
+    @apply border-0 border-[#2d2e3280] pb-2 px-1 mb-8 border-b-2 inline-block font-mulish font-semibold lg:border-b-0 lg:m-0 lg:pr-7 lg:py-1 lg:border-r-2 lg:border-dblue lg:mr-16 ;
   }
   .shadow-pr{
     box-shadow: 0px 0px 10px rgb(0, 0, 0, .1);

@@ -7,16 +7,16 @@ import arrow from '@/app/assets/svg/arrow.svg'
 
 const Project = ({project}) => {
   return (
-    <div className='project'>
-        <div className="img-cont shadow-pr">
+    <div className='project md:mx-auto md:max-w-xl lg:max-w-none lg:flex lg:flex-row lg:justify-center lg:gap-16'>
+        <div className="img-cont shadow-pr lg:basis-3/5">
             <Image src={project.image} alt='proj1' />
         </div>
-        <div className='px-5'>
-            <h4>{project.title}</h4>
-            <p>
+        <div className='px-5 md:max-w-xs md:mx-auto lg:basis-2/5 lg:max-w-none lg:py-7'>
+            <h4 className='mb-5'>{project.name}</h4>
+            <p className='lg:text-base'>
                 {project.desc}
             </p>
-            <ul className='mt-5'>
+            <ul className='mt-5 text-base font-semibold'>
                 {project.involvedTech.map((skill, index)=>{
                     
                     return <li>{skill}</li>
