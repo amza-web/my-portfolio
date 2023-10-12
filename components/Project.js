@@ -19,7 +19,7 @@ const Project = ({project}) => {
             <ul className='mt-5 text-base font-semibold'>
                 {project.involvedTech.map((skill, index)=>{
                     
-                    return <li>{skill}</li>
+                    return <li key={index}>{skill}</li>
                 })}
             </ul>
             <div className='flex gap-2.5 justify-evenly mt-10'>
