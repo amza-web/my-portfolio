@@ -45,52 +45,55 @@ export default function Home() {
     <main className=''>
       
       <Navigation />
-      <section className='pt-32 lg:pt-44 lg:min-h-[350px] text-center mx-4 flex flex-col lg:flex-row md:text-left gap-7 md:max-w-lg md:mx-auto lg:max-w-5xl lg:justify-between lg:px-10'>
-        <div className='flex justify-center'>
-          <picture className='hero-pic lg:w-[350px] lg:h-[350px] lg:'>
-            <Image className="absolute lg:static scale-125" src={hero} alt='hero' />
-          </picture>
+      <div className="lg:h-screen lg:flex lg:flex-col lg:justify-center">
+        <div>
+          <section className='pt-32 lg:pt-44 lg:min-h-[350px] text-center mx-4 flex flex-col lg:flex-row md:text-left gap-7 md:max-w-lg md:mx-auto lg:max-w-5xl lg:justify-between lg:px-10'>
+            <div className='flex justify-center'>
+              <picture className='hero-pic lg:w-[350px] lg:h-[350px] lg:'>
+                <Image className="absolute lg:static scale-125" src={hero} alt='hero' />
+              </picture>
+            </div>
+            <div className='lg:-order-1 lg:max-w-[500px]'>
+              <h1 className='text-4xl md:text-5xl lg:text-[55px] font-bold my-5'>Front-End React Developer👋🏽</h1>
+              <p className='font-mulish text-llp'>Hi, I'm Amza Omiteru. A passionate Front-end React Developer with a keen eye👀 for detail.</p>
+              <span className='flex justify-center lg:justify-start gap-4 max-h-11 my-11'>
+                <Link href={'#'}>
+                  <Image className='img-icon' src={linkedin} alt='logo' />
+                </Link>
+                <Link href={'#'}>
+                  <Image className='img-icon' src={github} alt='logo' />
+                </Link>
+              </span>
+            </div>
+          </section>
+          <section className='skills mb-28 mt-5 text-center lg:text-left lg:container-d md:max-w-xl  md:mx-auto lg:max-w-5xl lg:flex lg:items-center lg:mt-24'>
+            <div className='lg:inline-block'>
+              <h4 className='tech-txt'>Tech Stack</h4>
+            </div>
+            <ul className='lg:inline-on'>
+              <li>
+                <Image src={html} alt='HTML logo' />
+              </li>
+              <li>
+                <Image src={css} alt='HTML logo' />
+              </li>
+              <li>
+                <Image src={js} alt='HTML logo' />
+              </li>
+              <li>
+                <Image src={react} alt='HTML logo' />
+              </li>
+              <li>
+                <Image src={nextJs} alt='HTML logo' />
+              </li>
+              <li>
+                <Image src={tailwindcss} alt='HTML logo' />
+              </li>
+            </ul>
+          </section>
         </div>
-        <div className='lg:-order-1 lg:max-w-[500px]'>
-          <h1 className='text-4xl md:text-5xl lg:text-6xl font-bold my-5'>Front-End React Developer👋🏽</h1>
-          <p className='font-mulish text-llp'>Hi, I'm Amza Omiteru. A passionate Front-end React Developer with a keen eye👀 for detail.</p>
-          <span className='flex justify-center lg:justify-start gap-4 max-h-11 my-11'>
-            <Link href={'#'}>
-              <Image className='img-icon' src={linkedin} alt='logo' />
-            </Link>
-            <Link href={'#'}>
-              <Image className='img-icon' src={github} alt='logo' />
-            </Link>
-          </span>
-        </div>
-
-      </section>
-      <section className='skills mb-28 mt-5 text-center lg:text-left lg:container-d md:max-w-xl  md:mx-auto lg:max-w-5xl lg:flex lg:items-center lg:mt-24'>
-        <div className='lg:inline-block'>
-          <h4 className='tech-txt'>Tech Stack</h4>
-        </div>
-        <ul className='lg:inline-on'>
-          <li>
-            <Image src={html} alt='HTML logo' />
-          </li>
-          <li>
-            <Image src={css} alt='HTML logo' />
-          </li>
-          <li>
-            <Image src={js} alt='HTML logo' />
-          </li>
-          <li>
-            <Image src={react} alt='HTML logo' />
-          </li>
-          <li>
-            <Image src={nextJs} alt='HTML logo' />
-          </li>
-          <li>
-            <Image src={tailwindcss} alt='HTML logo' />
-          </li>
-        </ul>
-      </section>
-      <section className='about px-5'>
+      </div>
+      <section className='about px-5 lg:py-36'>
         <div className="lg:container-d lg:flex lg:mx-auto lg:gap-10">
           <div className='px-4 lg:pl-0 mb-9 md:mx-auto md:max-w-lg lg:basis-1/2'>
             <picture className='lg:h-full lg:w-full lg:overflow-hidden lg:flex lg:rounded-2xl'>
@@ -110,7 +113,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className='my-20 portfolio lg:container-d lg:mx-auto'>
+      <section className='my-20 lg:my-36 portfolio lg:container-d lg:mx-auto'>
         <div className='text-center md:text-left mb-16'>
           <h2 className="uppercase text-lblue text-base">Portfolio</h2>
           <h3 className='text-2xl'>Each project is a unique piece of development 🧩</h3>
