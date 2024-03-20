@@ -1,34 +1,43 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio Website
+
+Welcome to my portfolio website repository! This repository contains the codebase for my personal portfolio site.
+
+## About
+
+This portfolio website showcases my skills, projects, and experiences as a [web developer / software engineer / designer]. Through this site, you can learn more about my background, explore my projects, and get in touch with me.
+
+## Technologies Used
+
+- HTML
+- CSS
+- JavaScript
+- [Any other technologies or frameworks you used]
+
+## Features
+
+- **Project Showcase:** View details about the projects I've worked on.
+- **About Me:** Learn more about my background, skills, and experiences.
+- **Contact Form:** Reach out to me directly through the contact form.
+- **Responsive Design:** The website is optimized for various devices and screen sizes.
 
 ## Getting Started
 
-First, run the development server:
+To run this website locally on your machine, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+1. Clone this repository: `git clone https://github.com/your-username/your-portfolio.git`
+2. Navigate into the project directory: `cd your-portfolio`
+3. Open the `index.html` file in your web browser.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Contributing
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Contributions are welcome! If you find any issues or have suggestions for improvements, feel free to open an issue or create a pull request.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## License
 
-## Learn More
+This project is licensed under the [MIT License](LICENSE).
 
-To learn more about Next.js, take a look at the following resources:
+## Contact
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+For any inquiries or feedback, you can reach me at [your-email@example.com](mailto:your-email@example.com).
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Thank you for visiting my portfolio website repository! 🚀
