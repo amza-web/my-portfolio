@@ -8,10 +8,12 @@ This portfolio website showcases my skills, projects, and experiences as a [web 
 
 ## Technologies Used
 
+- NextJs
+- React
+- Tailwindcss
 - HTML
 - CSS
 - JavaScript
-- [Any other technologies or frameworks you used]
 
 ## Features
 
@@ -38,6 +40,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-For any inquiries or feedback, you can reach me at [your-email@example.com](mailto:your-email@example.com).
+For any inquiries or feedback, you can reach me at [amza.web@gmail.com](mailto:amza.web@gmail.com).
 
 Thank you for visiting my portfolio website repository! 🚀
