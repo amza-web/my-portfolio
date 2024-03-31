@@ -3,7 +3,7 @@ import Navigation from "@/components/Navigation"
 import Link from "next/link"
 import Project from "@/components/Project"
 
-import hero from "@/app/assets/img/hero.png"
+import hero from "@/app/assets/img/hero.jpg"
 import linkedin from "@/app/assets/svg/linkedin.svg"
 import github from "@/app/assets/svg/github.svg"
 import html from "@/app/assets/svg/html.svg"
