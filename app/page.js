@@ -116,7 +116,7 @@ export default function Home() {
           </section>
         </div>
       </div>
-      <section className="about px-5 lg:py-36">
+      <section id="about-sec" className="about px-5 lg:py-36">
         <div className="lg:container-d lg:flex lg:mx-auto lg:gap-10">
           <div className="px-4 lg:pl-0 mb-9 md:mx-auto md:max-w-lg lg:basis-1/2">
             <picture className="lg:h-full lg:w-full lg:overflow-hidden lg:flex lg:rounded-2xl">
@@ -145,7 +145,7 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className="my-20 lg:my-36 portfolio lg:container-d lg:mx-auto">
+      <section id="portfolio-sec" className="my-20 lg:my-36 portfolio lg:container-d lg:mx-auto">
         <div className="text-center md:text-left mb-16">
           <h2 className="uppercase text-lblue text-base">Portfolio</h2>
           <h3 className="text-2xl">
@@ -158,7 +158,7 @@ export default function Home() {
           })}
         </div>
       </section>
-      <section className="text-center md:text-left bg-white py-20 px-10">
+      <section id="contact-sec" className="text-center md:text-left bg-white py-20 px-10">
         <div className="lg:container-d">
           <h2>Contact</h2>
           <h3>Don't be shy! Hit me up! 👇</h3>
