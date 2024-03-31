@@ -34,13 +34,13 @@ const Navigation = () => {
               <Link href={"#"}>Home</Link>
             </li>
             <li>
-              <Link href={"#"}>About</Link>
+              <Link href={"#about-sec"}>About</Link>
             </li>
             <li>
-              <Link href={"#"}>Portfolio</Link>
+              <Link href={"#portfolio-sec"}>Portfolio</Link>
             </li>
             <li>
-              <Link href={"#"}>Contact</Link>
+              <Link href={"#contact-sec"}>Contact</Link>
             </li>
           </ul>
         </div>
@@ -52,13 +52,13 @@ const Navigation = () => {
               <Link href={"#"}>Home</Link>
             </li>
             <li>
-              <Link href={"#"}>About</Link>
+              <Link href={"#about-sec"}>About</Link>
             </li>
             <li>
-              <Link href={"#"}>Portfolio</Link>
+              <Link href={"#portfolio-sec"}>Portfolio</Link>
             </li>
             <li>
-              <Link href={"#"}>Contact</Link>
+              <Link href={"#contact-sec"}>Contact</Link>
             </li>
           </ul>
         </div>
